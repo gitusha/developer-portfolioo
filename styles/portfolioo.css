@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, system-ui,  sans-serif;
+}
+header{
+    height: 10%;
+    background-image: url('../images/donation7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+.banner{
+    padding: 180px 400px;
+}
+.banner .banner-title{
+    font-size: 3.5cm;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.banner-description{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.btn-primary{
+    padding: 18px 18px;
+    background-color: rgb(185, 63, 63);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.donate-container{
+    padding: 100px 400px;
+    position: absolute;
+}
+
+.donate-container ul{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.donate-container .donate ul li{
+    list-style: none;
+    padding: 30px 15px;
+    background-color: lightgray;
+    font-size: 28px;
+    font-weight: 700;
+    color: gray;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-align: center;
+}
+.donate-container .donate ul li:hover{
+    border: 2px solid rgb(185, 63, 63);
+    background-color: rgb(195, 152, 152);
+}
+.donate-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.donate-description, .donate-plan-description{
+margin-top: 20px;
+margin-bottom: 50px;
+text-align: center;
+}
+.donate-extra{
+    margin-top: 40px;
+    padding: 20px 0;
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.donate-type-container{
+    display: flex;
+    gap: 20px;
+}
+.type-item-food{
+    background-color: rgb(188,228,253, 0.519);
+    padding: 20px 15px;
+}
+.type-item-shelter{
+    background-color: rgb(233,180,174,0.373);
+    padding: 20px 15px;
+}
+
+.type-item-education{
+    background-color: rgb(230,171,165,0.712);
+    padding: 25px 15px;
+}
+
+.donate-type-container img{
+    padding: 20px 15px;
+}
+
+.donate-depend-container{
+    display: flex;
+    gap: 35px;
+    margin-top: 100px;
+}
+
+.depend-content{
+    padding: 0 10px;
+}
+.depend-image img{
+    width: 320px;
+    height: 350px;
+}
+.depend-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.depend-description-1 , .depend-description-2{
+font-size: 15px;
+font-weight: 600;
+margin-bottom: 15px;
+color: rgb(141,130,130);
+}
+.update-container{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.update-description{
+    margin-top: 20px;
+}
+.input-field{
+    margin-top: 80px;
+    height: 200px ;
+background-color: rgb(226,181,176,0.396);
+
+}
+
+.input-field-form{
+    margin-top: 100px;
+}
+.input-field{
+    margin-top: 80px;
+}
+
+input[type="text"]{
+    width: 230px;
+    height: 40px;
+    border: none;
+    background-color: lightgray;
+    font-size:20px ;
+    font-weight: 600 ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -3px;
+    margin-right: -4px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(185, 63, 63);
+    
+}
+footer{
+margin-top: 100px;
+height:200px ;
+background-color:rgb(3,3,3) ;
+text-align: center;
+}
+
+footer h3{
+    color: rgb(185, 63, 63);
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 55px;
+}
+
+footer p{
+    color: white;
+}
